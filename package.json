@@ -1,0 +1,36 @@
+{
+  "name": "@simpleblocks/components",
+  "version": "0.0.4",
+  "description": "This repository contains a basic set of components for SimpleBlocks.",
+  "main": "dist/index.js",
+  "types": "@types/components.d.ts",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simpleblocks/components.git"
+  },
+  "keywords": [
+    "simpleblocks",
+    "components",
+    "javascript"
+  ],
+  "author": "Loïc Bellemare-Alford",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/simpleblocks/components/issues"
+  },
+  "homepage": "https://github.com/simpleblocks/components#readme",
+  "dependencies": {
+    "@simpleblocks/components": "^0.0.4",
+    "@types/node": "^14.6.4",
+    "@types/react": "^16.9.49",
+    "@types/react-dom": "^16.9.8"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.2"
+  }
+}
