@@ -1,6 +1,6 @@
 {
   "name": "@simpleblocks/components",
-  "version": "0.0.4",
+  "version": "0.0.1",
   "description": "This repository contains a basic set of components for SimpleBlocks.",
   "main": "dist/index.js",
   "types": "@types/components.d.ts",
