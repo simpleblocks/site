@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/simpleblocks/components#readme",
   "dependencies": {
+    "@simpleblocks/components": "0.0.8",
     "@types/node": "^14.6.4",
     "@types/react": "^16.9.49",
     "@types/react-dom": "^16.9.8"
