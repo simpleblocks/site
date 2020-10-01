@@ -13,7 +13,7 @@ type PageBlocksType = {
     id: string,
     name: string,
     slug: string,
-    blocks: Components
+    blocks: Object
 }
 
 type TemplateType = {

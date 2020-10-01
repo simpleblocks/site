@@ -1,4 +1,3 @@
-import { Components } from "@simpleblocks/components";
 import { BlockDefinition, ComponentsInstance } from "@simpleblocks/components/@types/components";
 declare type ConfigType = {
     components: BlockDefinition[];
@@ -11,7 +10,7 @@ declare type PageBlocksType = {
     id: string;
     name: string;
     slug: string;
-    blocks: Components;
+    blocks: Object;
 };
 declare type TemplateType = {
     styles: Object;
