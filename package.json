@@ -1,6 +1,6 @@
 {
   "name": "@simpleblocks/site",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "This repository contains a basic set of components for SimpleBlocks.",
   "main": "dist/index.js",
   "scripts": {
