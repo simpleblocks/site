@@ -5,11 +5,15 @@ import {
 } from "@simpleblocks/components/@types/components";
 import {
   ConfigType,
-  defaultTemplateTemp,
   PageBlocksType,
   PageConfigType,
   TemplateType,
-} from "../@types/site";
+} from "../@types/index";
+
+export const defaultTemplateTemp = {
+  styles: {},
+  colors: {}
+}
 
 class SimpleBlocks {
   components: ComponentsInstance;
@@ -23,7 +27,7 @@ class SimpleBlocks {
     sections = [],
     globalStyles = {},
     template = defaultTemplateTemp,
-    linkResolver = (link) => link,
+    linkResolver = (link: string) => link,
   }: ConfigType) {
     this.components = new Components(components);
     this.sections = sections;

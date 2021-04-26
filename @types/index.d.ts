@@ -1,3 +1,8 @@
+import {
+  BlockDefinition,
+  ComponentsInstance,
+} from "@simpleblocks/components/@types/components.d";
+
 export type ConfigType = {
   components: BlockDefinition[],
   sections: Object[],
@@ -26,9 +31,4 @@ export type PageConfigType = {
   template: TemplateType,
   globalStyles: Object,
   linkResolver: (link: string) => string 
-}
-
-export const defaultTemplateTemp = {
-  styles: {},
-  colors: {}
 }
