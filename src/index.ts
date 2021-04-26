@@ -1,7 +1,7 @@
 import { Components } from "@simpleblocks/components"
 import { BlockDefinition, ComponentsInstance } from "@simpleblocks/components/@types/components"
 
-type ConfigType = {
+export type ConfigType = {
     components: BlockDefinition[],
     sections: Object[],
     template: TemplateType,
@@ -9,19 +9,19 @@ type ConfigType = {
     linkResolver: (link: string) => string 
 }
 
-type PageBlocksType = {
+export type PageBlocksType = {
     id: string,
     name: string,
     slug: string,
     blocks: Object
 }
 
-type TemplateType = {
+export type TemplateType = {
     styles: Object,
     colors: Object
 } | null
 
-type PageConfigType = {
+export type PageConfigType = {
     id: string,
     page: PageBlocksType,
     components: ComponentsInstance,
@@ -31,7 +31,7 @@ type PageConfigType = {
     linkResolver: (link: string) => string 
 }
 
-const defaultTemplateTemp = {
+export const defaultTemplateTemp = {
     styles: {},
     colors: {}
 }
