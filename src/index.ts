@@ -1,4 +1,4 @@
-import { Components } from "@simpleblocks/components";
+import { ComponentsManager } from "@simpleblocks/components";
 import {
   BlockDefinition,
   ComponentsInstance,
@@ -29,7 +29,7 @@ class SimpleBlocks {
     template = defaultTemplateTemp,
     linkResolver = (link: string) => link,
   }: ConfigType) {
-    this.components = new Components(components);
+    this.components = new ComponentsManager(components);
     this.sections = sections;
     this.globalStyles = globalStyles;
     this.template = template;
